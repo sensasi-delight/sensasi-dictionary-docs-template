@@ -23,4 +23,4 @@ Now you can start writing your dictionary entries. See the [conventions](#conven
 - The file name should be the same as the word in the entry. For example, the entry for the word `sensasi` should be written in a file named `sensasi.md`.
 - The file should be placed in their respective folder, which is the first letter of the word. For example, the entry for the word `sensasi` should be placed in the folder `s`.
 
-For example, see the [e/example.md](https://github.com/sensasi-delight/sensasi-dictionary-preview/tree/main/e/example.md) file. The preview of 'Example' entry can be seen [here](https://sensasi-delight.github.io/sensasi-dictionary-preview).
+For example, see the [e/example.md](https://github.com/sensasi-delight/sensasi-dictionary-preview/tree/main/e/example.md) file. The preview of 'Example' entry can be seen [here](https://sensasi-delight.github.io/sensasi-dictionary-preview/terms/example).
