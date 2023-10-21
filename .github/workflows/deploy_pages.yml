@@ -42,6 +42,11 @@ jobs:
           touch .env
           echo "BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> .env
           echo "NEXT_PUBLIC_BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> .env
+      - name: Replace script if any
+        run: |
+          if [ -f "${{ github.workspace }}/_ssg_asset/script.js" ]; then
+            cp -f "${{ github.workspace }}/_ssg_asset/script.js" "${{ github.workspace }}/_ssg/public/script.js"
+          fi
       - name: Detect package manager
         id: detect-package-manager
         run: |
